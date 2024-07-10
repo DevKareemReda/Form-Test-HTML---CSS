@@ -1,0 +1,21 @@
+/* support LTR and RTL */
+
+[dir="rtl"] .form-parent form .form-items svg.icon-inp{
+  right: 11px;
+}
+
+[dir="rtl"] .form-parent form .form-items input {
+  padding: 14px 45px 14px 40px;
+}
+
+[dir="rtl"] .form-parent form .main-social svg {
+  margin-left: 8px;
+}
+[dir="rtl"] .form-parent form .main-social a {
+  margin-right: 5px;
+}
+
+[dir="rtl"] .form-parent .img-left .caption-img h2 {
+  text-align: left;
+  float: left;
+}

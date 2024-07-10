@@ -1,7 +1,6 @@
 /* _____ Import files _____ */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
-/* _____ style all rules _____ */
+@import "style-rtl.css";
 * {
   -webkit-box-sizing: border-box;
   	 -moz-box-sizing: border-box;
@@ -12,6 +11,7 @@
 
 body {
   font-family: "Poppins", sans-serif;
+  /* overflow-x: hidden; */
 }
 
 a {
@@ -281,10 +281,11 @@ button, input {
   bottom: -1px;
   background: url(../images/girl.png) no-repeat;
   height: 473px;
-  width: 650px;
+  width: 291px;
   -moz-background-size: cover;
-    -o-background-size: cover;
-       background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: -355px 0px;
 }
 
 .form-parent .img-left .caption-img::after {
